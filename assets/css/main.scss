@@ -1,5 +1,22 @@
 ---
 ---
+
+
+// Override theme variables BEFORE importing the theme
+$primary-color: #2563eb;
+$font-family-sans-serif: "Inter", sans-serif;
+$border-radius: 8px;
+
+// Then import the theme
+@import "minimal-mistakes";
+
+
+
+
+
+
+
+
 @import 'libs/vars';
 @import 'libs/functions';
 @import 'libs/mixins';
